@@ -1,14 +1,17 @@
-# Instrucciones:
-En este curso Básico de Ciencia de Datos con Python y Anaconda, impartido por el IA-Center en colaboración con BOSHC, se nos pidió realizar Challenges o prácticas relacionadas con el preprocesamiento y análisis de datos.
-* En el primer [Challenge1](./Challenge1/Tarea1.ipynb) se nos proporcionó un data set de fechas pero totalmente mezclados. El objetivo fue entregar este conjunto de datos en formato csv con los datos separados y entendibles. La segunda parte trata de leer varios archivos csv a la vez y crear un DataFrame con todos estos.
+# Information:
 
-* En el segundo [Challenge2](./Challenge2/Challenge_2.ipynb) se nos solicitó realizar una **consulta a la API del DENUE** (Directorio Estadístico Nacional de Unidades Económicas) del INEGI para realizar análisis de datos correspondiente a las actividades económicas realizadas por un par de estados y compararlas:
-![Principales actividades económicas de cada estado](./images/img_ch_2.png)
+In this Basic Data Science with Python and Anaconda course, taught by IA-Center in collaboration with BOSHC, we were asked to complete several challenges (or practical exercises) related to data preprocessing and analysis.
 
-* En el tercer [Challenge3](./Challenge3/Challenge_3.ipynb) se nos solicitó realizar preprocesamiento/limpieza de datos de un archivo csv con información de algunos airbnb´s, pero utilizando más los **métodos y funciones de la libreria de pandas**, ya que trabajar con grandes cantidades de datos sin pandas puede ocacionar el quedarse sin memoria rápidamente (OOM). Esta limpieza fue más extensa que el primer Challenge, ya que se separaron los datos en algunas columnas, se les dió el formato solicitado (sin signo $), se trabajó con los NaNs, se dió un formato específico para las fechas, se reemplazó algunos datos con un formato correspondiente, se trabajó espacios en blanco, se realizaron filtros numéricos y se analizaron datos duplicados.
+* [Challenge 1](./Challenge1/Tarea1.ipynb). We were given a dataset containing disorganized date information. The goal was to deliver the dataset in a clean, understandable CSV format with properly separated data. The second part involved reading multiple CSV files at once and combining them into a single DataFrame.
 
-* En el [Challenge_Final](./Challenge_Final/Challenge_Final_COMPLETADO.ipynb) se nos entregaron varios diccionarios de datos (archivos csv) obtenidos mediante la Encuesta Nacional de Inclusión Financiera 2021 (**ENIF**) para realizar distintas visualizaciones (se usó **Matplotlib**) y análisis de datos con el propósito de contestar distintas preguntas como las siguientes: ¿Cuál es la distribución de la edad por sexo? ¿Cuántas mujeres y cuántos hombres hay en estos datos? ¿Cuál es la distribución de la edad? Entre otras. Cabe mencionar que el al ser el reto final, el análisis fue más extenso para responder las preguntas indicadas, además se solicitó el uso de funciones con el fin de evitar la repetición de código. Se muestran algunas imágenes:
-![¿Cuál es el nivel educativo por sexo?](./images/img1_ch_f.png)
-![¿Cuáles son las razones principales por las que adquirió cuentas bancarias?](./images/img2_ch_f.png)
+* [Challenge 2](./Challenge2/Challenge_2.ipynb). We were asked to query the **DENUE API** (Directorio Estadístico Nacional de Unidades Económicas) from INEGI, in order to perform data analysis of the economic activities from two selected Mexican states and compare them:
+![Main economic activities in each stateo](./images/img_ch_2.png)
 
-![Certificado de finalización](./images/certificado.png)
+* [Challenge 3](./Challenge3/Challenge_3.ipynb). This challenge involved preprocessing/cleaning a CSV file containing information about various Airbnb listings, **focusing more on the methods and functions from the pandas library**, since working with large datasets without this can quickly lead to out-of-memory (OOM) issues. This cleaning task was more extensive than in Challenge 1 and included: handling NaN values, Formatting date fields, Applying numerical filters, Analyzing duplicate entries etc.
+
+* [Final Challenge](./Challenge_Final/Challenge_Final_COMPLETADO.ipynb). We were provided with several CSV data dictionaries from Encuesta Nacional de Inclusión Financiera 2021 (ENIF). The goal was to perform data visualizations (using **Matplotlib**) and data analysis to answer a variety of questions, such as: What is the age distribution by gender?
+How many women and men are represented in the data? What is the overall age distribution? As this was the final challenge, the analysis was more comprehensive. Part of the challenge involved creating functions to keep the code clean and avoid repetition. Some of the visualizations produced include:
+![What is the level of education by gender?](./images/img1_ch_f.png)
+![What are the main reasons for opening bank accounts?](./images/img2_ch_f.png)
+
+![Certificate of Completion](./images/certificado.png)
